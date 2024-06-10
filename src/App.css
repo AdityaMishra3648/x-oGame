@@ -1,0 +1,76 @@
+/* .rowDiv{
+  display: flex;
+} */
+/* .colomnDiv{
+  height: max(10vw,10vh);
+  width: max(10vw,10vh);
+  background-color: black;
+  border: 2px solid orange;
+  } */
+*{
+  background: rgb(31, 31, 31);
+}
+.mainDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: max(10vh,5vw);
+}
+.row1{
+  margin: 0;
+  padding: 0;
+}
+.row2{
+  margin: 0;
+  padding: 0;
+}
+.row3{
+  margin: 0;
+  padding: 0;
+}
+.row1Divs{
+    display: inline-block;
+    color: black;
+    height: max(10vw,10vh);
+    width: max(10vw,10vh);
+    background: rgb(31, 31, 31);
+    border: 5px solid white;
+    overflow: hidden;
+}
+.row1Divs img{
+  width: auto; /* Make the image width 100% of the div */
+  height: 100%; /* Maintain aspect ratio */
+  display: block;
+}
+.row2Divs img{
+  width: auto; /* Make the image width 100% of the div */
+  height: 100%; /* Maintain aspect ratio */
+  display: block;
+}
+.row3Divs img{
+  width: auto; /* Make the image width 100% of the div */
+  height: 100%; /* Maintain aspect ratio */
+  display: block;
+}
+.row2Divs{
+    display: inline-block;
+    color: black;
+    height: max(10vw,10vh);
+    width: max(10vw,10vh);
+    background: rgb(31, 31, 31);
+    border: 5px solid white;
+}
+.row3Divs{
+    display: inline-block;
+    color: black;
+    height: max(10vw,10vh);
+    width: max(10vw,10vh);
+    background: rgb(31, 31, 31);
+    border: 5px solid white;
+}
+.image{
+  height: max(10vw,10vh);
+  width: auto;
+}
+
